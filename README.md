@@ -64,15 +64,11 @@ telegram-chatbot-gpt/
 
 │
 
-
 ├── bot.py                  # Main Telegram bot code
-
 
 ├── example.py              # Flask server running in a thread
 
-
 ├── requirements.txt        # List of dependencies├── .env                    # Environment variables
-
 
 └── README.md               # Project documentation
 
