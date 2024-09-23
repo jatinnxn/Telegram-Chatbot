@@ -61,7 +61,6 @@ This will start the bot and Flask server in the background.
 ## Project Structure
 
 telegram-chatbot-gpt/
-
 │
 
 ├── bot.py                  # Main Telegram bot code
