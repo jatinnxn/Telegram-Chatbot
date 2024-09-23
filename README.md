@@ -19,21 +19,18 @@ This project is a Telegram chatbot that integrates OpenAI's GPT models, allowing
 
 ### Step 1: Clone the repository
 
-bash
 git clone https://github.com/your-username/telegram-chatbot-gpt.git
 cd telegram-chatbot-gpt
 
 
 ### Step 2: Create a virtual environment
 
-bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 ### Step 3: Install dependencies
 
-bash
 pip install -r requirements.txt
 
 
@@ -48,7 +45,6 @@ TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 
 Alternatively, you can export these variables in your shell:
 
-bash
 export OPENAI_API_KEY=your-openai-api-key
 export TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 
@@ -57,7 +53,6 @@ export TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 
 You can now run the bot using the following command:
 
-bash
 python bot.py
 
 
@@ -65,18 +60,13 @@ This will start the bot and Flask server in the background.
 
 ## Project Structure
 
-bash
 telegram-chatbot-gpt/
+
 │
-
 ├── bot.py                  # Main Telegram bot code
-
 ├── example.py              # Flask server running in a thread
-
 ├── requirements.txt        # List of dependencies
-
 ├── .env                    # Environment variables
-
 └── README.md               # Project documentation
 
 
@@ -104,7 +94,6 @@ Contains a simple Flask server that runs in the background to simulate additiona
 
 Install dependencies via:
 
-bash
 pip install aiogram openai Flask
 
 
